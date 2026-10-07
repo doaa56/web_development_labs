@@ -1,0 +1,79 @@
+
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+a {
+  color: white;
+  text-decoration: none; 
+  margin: 0 15px;       
+}
+#about_me{
+    text-align:center;
+    margin-top:50px;
+}
+.about_text{
+    color:black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.projects{
+    margin-top:50px;
+    text-align:center;
+}
+.card{
+    display:inline-block;
+    box-shadow: 0 2px 8px #ccc;
+    width: 300px;
+    padding: 16px;
+    margin:5PX;
+    text-align: left;
+}
+.contact {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 7px;
+}
+
+.contact input {
+    height: 25px;
+    padding: 5px;
+}
+
+.contact textarea {
+    height: 50px;
+    padding: 5px;
+    resize: vertical;
+}
+
+.contact button {
+    height: 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
